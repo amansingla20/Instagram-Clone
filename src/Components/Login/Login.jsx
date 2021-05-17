@@ -31,7 +31,9 @@ const Login = () => {
                         <div>
                             <div className='login-right'>
                                 <img className='instaLogo' src={insta_logo} alt="" />
+                                
                                 <div className='signIn'>
+
                                         {isLogin? <SignIn/> : <SignUp/>}
 
                                     <div className='login-ordiv'>
@@ -39,6 +41,7 @@ const Login = () => {
                                         <div className='login-or'>OR</div>
                                         <div className='login-divider'></div>
                                     </div>
+                                    
                                     <img src={fb_logo} alt="" className='fb-logo'/>
                                     <div className='login-fb'>Login with facebook</div>
                                     <div className='login-fp'>Forgot password?</div>
