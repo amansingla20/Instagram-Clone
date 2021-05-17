@@ -1,0 +1,170 @@
+body {
+  background-color: #fafafa;
+}
+
+.login-main {
+  display: flex;
+  margin-top: 10px;
+  margin-left: -65px;
+}
+
+.instaLogo {
+  width: 175px;
+  margin-top: 25px;
+}
+
+.login-right {
+  width: 350px;
+  border: 1px solid #dbdbdb;
+  margin-top: 25px;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 25px;
+}
+
+.signIn {
+  margin-top: 25px;
+}
+
+.signinText {
+  width: 250px;
+  height: 36px;
+  margin: 5px;
+  outline: none;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.signinButton {
+  width: 270px;
+  height: 36px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 1px solid #0095f6;
+  background-color: #0095f6;
+  margin-top: 5px;
+  color: white;
+}
+
+.signinButton:hover {
+  cursor: pointer;
+}
+
+.login-ordiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.login-divider {
+  width: 80px;
+  height: 0px;
+  border: 1px solid #dbdbdb;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.login-or {
+  margin: 0px 20px;
+  font-weight: bold;
+  color: #bebebe;
+}
+
+.login-fb {
+  color: rgba(var(--d69, 0, 149, 246), 1);
+  border: 0;
+  display: inline;
+  padding: 0;
+  position: relative;
+}
+
+.login-fb:hover {
+  cursor: pointer;
+}
+
+.login-fp {
+  color: rgba(var(--fe0, 0, 55, 107), 1);
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.login-fp:hover {
+  cursor: pointer;
+}
+
+.fb-logo {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.signupOptions {
+  height: 56px;
+  width: 350px;
+  border: 1px solid #dbdbdb;
+  background-color: white;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.login-signIn {
+  margin-top: 15px;
+}
+
+.login-signUp {
+  margin-top: 15px;
+}
+
+.signup-text {
+  font-weight: bold;
+  color: #0095f6;
+}
+
+.signin-text:hover {
+  cursor: pointer;
+}
+
+.signup-text:hover {
+  cursor: pointer;
+}
+
+.signin-text {
+  font-weight: bold;
+  color: #0095f6;
+}
+
+.app-section {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font-size: 14px;
+  line-height: 18px;
+  margin: 10px 20px 10px 20px;
+  text-align: center;
+}
+
+.app-section > p {
+  display: flex;
+}
+
+.app-images {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-box-pack: center;
+  margin-left: 40px;
+}
+
+.app-images:hover {
+  cursor: pointer;
+}
+
+.loginPage-app {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.loginPage-play {
+  height: 40px;
+  margin-right: 10px;
+}
