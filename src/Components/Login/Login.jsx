@@ -10,6 +10,7 @@ import SignIn from '../SignIn/SignIn';
 import SignUp from '../SignUp/SignUp';
 
 const Login = () => {
+    
     let [isLogin, setLogIn] = useState(true);
 
     let changeLogin = () =>{
@@ -17,7 +18,9 @@ const Login = () => {
         if(isLogin){
         setLogIn(false);
         }
-        else {setLogIn(true)};
+        else {
+            setLogIn(true)
+        };
     }
     return (
         <div>
