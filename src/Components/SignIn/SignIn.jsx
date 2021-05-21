@@ -33,6 +33,14 @@ const SignIn = () => {
             newFormData[event.target.name] = event.target.value;
             setFormData(newFormData);
             console.log(newFormData);
+
+            let validationResults = Joi.validate(newFormData, schema, {
+                abortEarly: true,
+            });
+            console.log("browser validation results", validationResults);
+            if (validationResults.error) 
+                setErrors(validationResults.error.details);
+                else setErrors([]);
         }
 
         let browserValidation = ()=>{
