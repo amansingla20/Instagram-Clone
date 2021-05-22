@@ -86,6 +86,10 @@ const SignIn = () => {
                             showConfirmButton: false,
                             timer: 1500
                           })
+                          setFormData({
+                            username: '',
+                            password: ''
+                        });
                         found=true;
                         break;    
                     }
