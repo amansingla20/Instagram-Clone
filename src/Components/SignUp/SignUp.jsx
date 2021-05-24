@@ -3,7 +3,8 @@ import './SignUp.css';
 import Joi from 'joi-browser';
 import Alert from "@material-ui/lab/Alert";
 import { makeStyles } from '@material-ui/core';
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
+import {useHistory} from 'react-router-dom';
     
 const useStyles = makeStyles((theme)=>({
     alert: {
@@ -16,6 +17,7 @@ const useStyles = makeStyles((theme)=>({
 
 const SignUp = () => {
     const classes = useStyles();
+    let history = useHistory();
 
     const [formData, setFormData] = useState({
         mobile:'',
@@ -65,7 +67,6 @@ const handleSubmit = (event)=>{
     event.preventDefault();
     if(browserValidation()) { 
         setErrors([]);
-        // alert('validated')
 };
 
 let found = false;
@@ -111,7 +112,7 @@ if(found === true) return;
         username: '',
         password: ''
     });
-    // history.push('/dashboard');
+    history.push('/homepage');
 }
 
 

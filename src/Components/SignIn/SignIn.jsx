@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import '../Login/Login.css';
-//import {useHistory} from 'react-router-dom';
+import {useHistory} from 'react-router-dom';
 import Joi from 'joi-browser';
 import Alert from "@material-ui/lab/Alert";
 import { makeStyles } from '@material-ui/core';
@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme)=>({
 const SignIn = () => {
     const classes = useStyles();
 
-    //let history = useHistory();
+    let history = useHistory();
     const [formData, setFormData] = useState({
         username: '',
         password: ''
@@ -78,7 +78,7 @@ const SignIn = () => {
                 for(let user of user_received){
                     console.log(user);
                     if(user.email === formData.username && user.password === formData.password){
-                        // history.push('/dashboard');
+                         history.push('/homepage');
                         Swal.fire({
                             position: 'top-center',
                             icon: 'success',
