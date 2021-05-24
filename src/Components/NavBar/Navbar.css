@@ -1,0 +1,48 @@
+.navbar {
+  height: 54px;
+  background-color: white;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.instaLogo {
+  width: 105px;
+  margin-top: 12px;
+}
+
+.instaLogo:hover {
+  cursor: pointer;
+  transition: 100ms ease-in;
+  transform: scale(1.07);
+}
+
+.img_class {
+  margin: 17px 14px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  background: none;
+}
+
+.img_class:hover {
+  transition: 100ms ease-in;
+  transform: scale(1.07);
+  cursor: pointer;
+}
+
+.search {
+  height: 30px;
+  width: 225px;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  background-color: #fafafa;
+  border-radius: 5px;
+  outline: none;
+  display: flex;
+  margin-top: 10px;
+  overflow-x: hidden;
+}
+
+.search-icon {
+  margin: -40px 2px 22px 10px;
+  color: gray;
+}
