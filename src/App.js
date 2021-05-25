@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "./Components/Login/Login";
 import HomePage from "./Components/Home Page/HomePage";
+import ProtectedRoute from "./Components/Protected Route/ProtectedRoute";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <div>
         <Switch>
           <Route exact path="/" component={Login} />
-          <Route path="/homepage" component={HomePage} />
+          <ProtectedRoute path="/homepage" component={HomePage} />
         </Switch>
       </div>
     </Router>

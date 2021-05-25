@@ -1,10 +1,14 @@
 import React from 'react'
 import './MainContent.css';
+import Grid from '@material-ui/core/Grid';
 
 function MainContent() {
     return (
         <div>
-            <h1 style={{textAlign:'center', marginTop:'20px'}}>Main Content will be Build Shortly.....</h1>
+            <Grid item xs = {2}></Grid>
+            <Grid item xs = {6}></Grid>
+            <Grid item xs = {2}></Grid>
+            <Grid item xs = {2}></Grid>
         </div>
     )
 }
