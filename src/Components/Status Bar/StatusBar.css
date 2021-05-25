@@ -1,0 +1,36 @@
+.statusBar {
+  height: 120px;
+  width: 615px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  margin-top: 25px;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.statusBar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.Avatar {
+  min-width: 52px;
+  min-height: 55px;
+  border: 3px solid#Df3968;
+}
+
+.Avatar:hover {
+  cursor: pointer;
+  transition: 100ms ease-in;
+  transform: scale(1.07);
+}
+
+.statusBar-content {
+  margin: 25px 15px;
+}
+
+.username {
+  font-size: 12px;
+  max-width: 50px;
+  overflow-x: hidden;
+  text-align: center;
+}
