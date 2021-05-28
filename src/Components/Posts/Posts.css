@@ -1,0 +1,60 @@
+.Post-main {
+  width: 615px;
+  border: 1px solid #dbdbdb;
+  background-color: white;
+  margin-top: 25px;
+}
+
+.post-header {
+  height: 60px;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+}
+
+.post-avatar {
+  min-width: 30px;
+  min-height: 30px;
+  margin: 10px;
+}
+
+.post-avatar:hover {
+  transition: 100ms ease-in;
+  transform: scale(1.07);
+  cursor: pointer;
+}
+
+.post-username {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.post-username:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 100ms ease-in;
+  transform: scale(1.07);
+}
+
+.post-reactImage {
+  width: 25px;
+  margin: 10px;
+}
+
+.post-reactImage:hover {
+  cursor: pointer;
+  transition: 100ms ease-in;
+  transform: scale(1.07);
+}
+
+.post-comment {
+  margin: 10px;
+}
+
+.post-commentBox {
+  height: 56px;
+  width: 603px;
+  border: 1px solid #dbdbdb;
+  outline: none;
+  font-size: 16px;
+  padding-left: 10px;
+}
