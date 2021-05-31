@@ -1,0 +1,42 @@
+.suggestion-box {
+  width: 325px;
+  height: 290px;
+  margin-top: 60px;
+}
+
+.suggestion-title {
+  font-weight: bold;
+  color: #dbdbdb;
+}
+
+.suggestion-body {
+  height: 254px;
+  height: 250px;
+  margin-top: 10px;
+}
+
+.information {
+  display: flex;
+  padding: 10px 0px;
+}
+
+.person-image {
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.person-image:hover {
+  cursor: pointer;
+  transition: 100ms ease-in;
+  transform: scale(1.07);
+}
+
+.person-name {
+  font-weight: bold;
+  margin: 5px;
+}
+
+.person-name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

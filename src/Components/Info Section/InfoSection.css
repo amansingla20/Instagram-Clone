@@ -1,0 +1,41 @@
+.image-container {
+  width: 300px;
+  height: 56px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.info-image {
+  min-width: 60px;
+  min-height: 60px;
+}
+
+.info-image:hover {
+  transition: 100ms ease-in;
+  transform: scale(1.07);
+  cursor: pointer;
+}
+
+.info-username {
+  margin: 5px;
+  font-weight: bold;
+}
+
+.info-username:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.info-section {
+  margin-left: 20px;
+}
+
+.info-description {
+  margin: 5px;
+}
+
+.info-description:hover {
+  transition: 100ms ease-in;
+  transform: scale(1.07);
+  cursor: default;
+}
